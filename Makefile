@@ -1,4 +1,4 @@
-obj-m	+=	hello_world.o
+obj-m	+=	hello_gpio.o
 KDIR	=	/lib/modules/$(shell uname -r)/build
 
 all:
